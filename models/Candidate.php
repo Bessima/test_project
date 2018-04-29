@@ -75,7 +75,7 @@ class Candidate extends \yii\db\ActiveRecord
             'educationEdditional' => 'Дополнительное образование',
             'experienceProjectWork' => 'Опыт проектной работы',
             'experienceManager' => 'Опыт управления',
-            'housingCondition' => 'Семейное положение',
+            'housingCondition' => 'Жилищные условия',
             'iq' => 'IQ',
         ];
     }

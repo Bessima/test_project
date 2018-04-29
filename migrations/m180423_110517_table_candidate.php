@@ -23,7 +23,7 @@ class m180423_110517_table_candidate extends Migration
             'experienceManager' => $this->integer()->notNull(),
             'housingCondition' => $this->integer()->notNull(),
             'iq' => $this->integer()->notNull(),
-        ]);
+        ],'CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE=InnoDB');
 
     }
 
@@ -33,8 +33,6 @@ class m180423_110517_table_candidate extends Migration
     public function safeDown()
     {
         $this->dropTable('candidate');
-
-        echo "m180423_110517_table_candidate cannot be reverted.\n";
 
         return true;
     }
