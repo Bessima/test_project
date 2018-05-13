@@ -200,7 +200,7 @@ class m180429_081035_insert_candidate_data extends Migration
                 'experienceProjectWork' => 0,
                 'experienceManager' => 0,
                 'housingCondition' => 4,
-                'iq' => '',
+                'iq' => 100,
             ],
             [
                 'name' => 'Участник 18',
@@ -231,9 +231,9 @@ class m180429_081035_insert_candidate_data extends Migration
                 'educationSpecialty' => 4,
                 'educationEdditional' => 0,
                 'experienceProjectWork' => 5,
-                'experienceManager' => '',
+                'experienceManager' => 0,
                 'housingCondition' => 4,
-                'iq' => '',
+                'iq' => 100,
             ],
             [
                 'name' => 'Участник 21',

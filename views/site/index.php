@@ -2,15 +2,17 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = 'Рекрутинг';
 ?>
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Рекрутинг</h1>
+        <h1><?=$this->title; ?></h1>
 
-        <p class="lead">Данный сервис предназначен для принятия решения о найме сотрудников</p>
-        <p class="lead">Выберите дальнейшее действие: </p>
+        <p class="lead">
+            Принятия решения о найме сотрудников.<br/>
+            Выберите дальнейшее действие:
+        </p>
     </div>
 
     <div class="body-content">
