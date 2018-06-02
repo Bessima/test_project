@@ -30,7 +30,7 @@ $this->title = 'Рекрутинг';
                 <a
                     class="btn btn-info btn-lg center-block"
                     role="button"
-                    href="/study">
+                    href="/study/learning">
                     Обучение
                 </a>
             </div>
@@ -38,7 +38,7 @@ $this->title = 'Рекрутинг';
                 <a
                     class="btn btn-info btn-lg center-block"
                     role="button"
-                    href="/testing">
+                    href="/study/testing">
                     Тестирование
                 </a>
             </div>

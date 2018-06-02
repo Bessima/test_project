@@ -19,7 +19,7 @@ $this->title = 'Обучение';
                 Автотестирование
             </a>
 
-            <a class="btn btn-success btn-lg" href="/study/autotest" role="button">
+            <a class="btn btn-success btn-lg" href="/study/testing" role="button">
                 По кандидатное тестирование
             </a>
         </div>
